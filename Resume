@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+</head>
+<body>
+
+  <!-- Heading of the project title -->
+  <header>
+    <h1>Resume</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Qualification</li>
+      <li>Certificates</li>
+      <li>Skills</li>
+      <li>Contact Details</li>
+    </ul>
+  </nav>
+
+  <!-- Home Content -->
+  <section>
+    <center>
+      <figure>
+        <img src="https://th.bing.com/th/id/OIP.eMLmzmhAqRMxUZad3zXE5QHaHa?w=174&h=188" 
+             alt="Profile Picture" height="100px" width="100px" />
+      </figure>
+      <figcaption>Picture 1</figcaption>
+      <h1>Deepika R</h1>
+      <h2>Full Stack Developer</h2>
+    </center>
+  </section>
+
+  <!-- Qualification Section -->
+  <section>
+    <h2 style="text-align: center;">Qualification</h2>
+    <table style="width: 100%; border: 1px solid #ccc; border-collapse: collapse; margin-top: 20px;">
+      <thead>
+        <tr style="background-color: #2c3e50; color: #fff;">
+          <th style="padding: 8px; border: 1px solid #ccc;">#</th>
+          <th style="padding: 8px; border: 1px solid #ccc;">Degree</th>
+          <th style="padding: 8px; border: 1px solid #ccc;">Year</th>
+          <th style="padding: 8px; border: 1px solid #ccc;">Institution</th>
+          <th style="padding: 8px; border: 1px solid #ccc;">Percentage</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="padding: 8px; border: 1px solid #ccc;">1</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">BSC CT</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">2027</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">KG College of Arts and Science</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">92%</td>
+        </tr>
+        <tr style="background-color: #f9f9f9;">
+          <td style="padding: 8px; border: 1px solid #ccc;">2</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">SSLC</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">2022</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">AVB</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">92%</td>
+        </tr>
+        <tr>
+          <td style="padding: 8px; border: 1px solid #ccc;">3</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">HSC</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">2024</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">IDEAL</td>
+          <td style="padding: 8px; border: 1px solid #ccc;">87%</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Certificate Section -->
+  <section>
+    <table>
+      <tbody>
+        <tr>
+          <td>
+            <img src="https://coursera.org/share/a1b2726b25280d2b7c2b348a86d481a2"
+                 alt="no image" height="200px" width="200px" />
+          </td>
+          <td>
+            <img src="https://coursera.org/share/fe4fb3a22db308ea7405d339dd239134"
+                 alt="no image" height="200px" width="200px" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+</body>
+</html>
